@@ -5,7 +5,7 @@ aplicar API REST utilizando DJANGO no projeto de formulário
 
 
 
-- [x] Criando o projeto Django 
+- [ ] Criando o projeto Django 
 
 - [x] criar um diretório 
 
@@ -40,3 +40,24 @@ setup inicial realizado!  _
 - [ ] através do arquivo urls.py adicionar o path ('', index),
 - [ ] criar o arquivo views.py importando  o método render e definindo a função index que retorna dois parametros: request e index.html, {}
 - [ ] no heqad do arquivo HTML referenciar os arquivos correspondentes ao css e js carragando os arquivos estáticos. Pode ser utilizado o Jinja
+
+
+
+
+
+criar a Api com startapp
+
+configurar settings
+
+configurar urls 
+
+configurar a model 
+
+criar minha view definindo atravez de classe python
+
+\#criar a url.py com .\makemigrations migrate eunserver
+
+alterar o serializer
+
+
+

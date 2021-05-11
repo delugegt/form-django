@@ -1,0 +1,24 @@
+
+.imagem {
+  background-repeat: no-repeat;
+  background-size:100%;
+  opacity: 0.6;
+  height: auto;
+   }
+
+.titulo {
+  color: black;
+  font-family: 'Cinzel', serif;
+  font-size: 24px;
+  
+}
+
+.rodape {
+ margin-top: 500px;
+ font-family: 'Cinzel', serif;
+ color: rgb(116, 3, 3);
+}
+
+.lista {
+  font-size: 36px;
+}

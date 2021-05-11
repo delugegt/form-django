@@ -1,8 +1,11 @@
 from django.contrib import admin
 from django.urls import path, include #include
+from django.views.generic import TemplateView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     #incluir o path da api no diretório do app fdBoots
-    path('api/', include('fdBoots.urls'))
+    path('api/', include('fdBoots.urls')),
+    #aqui
+    path('', TemplateView.as_view(template_name="index.html"))
 ]

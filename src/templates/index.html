@@ -1,0 +1,74 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--aqui-->
+    <link rel="stylesheet" type="text/css" href={% static "bootstrap/css/bootstrap.min.css" %}>
+    <link rel="stylesheet" type="text/css" href={% static "css/style.css" %}>
+    
+    <meta chasert="utf-8">
+    <title> Login Form </title>
+
+  </head>
+  <body>
+      <section class="fomulario">
+        <div class="container">
+          <!--<div
+            class="bg-image p-5 shadow-1-strong rounded mb-5 text-white imagem"
+            style="background-image: url('img/download.jpg');"
+          > -->
+          <h1 class="mb-3 h2 text-center titulo">Login Form Acess</h1>
+        
+          <div class="col-md-6 offset-md-3 titulo">
+            <div class ="row"> 
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="@example.com">
+              </div>
+            </div>
+            <div class="row">
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            </div>
+            <div class="d-grid gap-2 col-sm-3">
+              <button class="btn btn-primary" type="button">Submit</button>
+              <button class="btn btn-primary" type="button" onclick="location.href='#rodape'">Help</button>
+            </div> 
+          </div>
+        </div>
+      </section>
+      <section id="rodape">
+        <div class="container rodape text-center">
+          <div class="row">
+            <div class="col-sm-4">
+              <h3> Precisa de ajuda? </h3>
+              <p> Veja as dicas!</p>
+            </div>
+            <div class="col-sm-4">
+              <h3> Quer uma dica? </h3>
+              <p> tente entrar em contato comigo..</p>
+            </div>
+            <div class="col-sm-4 lista">
+              <h3> Entre em contato comigo: </h3>
+              <ol>
+                <li>
+                  <a href="https://github.com/delugegt"> GITHUB </a> 
+                </li>
+                <li>
+                  <a href="https://www.behance.net/jorgelopes12"> BEHANCE </a>
+                </li>  
+                <li>
+                  <a href="https://www.linkedin.com/in/jorge-lopes-oliveira-221537187/"> LINKEDIN </a>
+                </li>
+              </ol>
+              
+               </div>
+          </div>
+        </div>
+      </section>
+  </body>
+</html>
+

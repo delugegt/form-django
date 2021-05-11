@@ -61,3 +61,5 @@ alterar o serializer
 
 
 
+trocar a tela inicial do django
+
